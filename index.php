@@ -4,24 +4,25 @@ include "includes/_process_include.php";
 include "includes/_header.php";
 
 ?>
+<br>
+<div class="jumbotron">
+    <h1 class="display-3">Login Gallery</h1>
+    <hr>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" id="username" name="username">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password" id="password">
+  </div>
 
-
-<form class="form-signin">
-    <h2 class="form-signin-heading">Please sign in</h2>
-    <label for="inputEmail" class="sr-only">Username</label>
-    <input type="input" id="username" class="form-control" placeholder="Username" required autofocus>
-    <br>
-    <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="password" class="form-control" placeholder="Password" required>
-    <div class="checkbox">
-
-    </div>
-    <input type="hidden" id="nextURL" class="form-control" value=<?= Gallery_Page_Link ?>>
-    <button class="btn btn-lg btn-primary btn-block" id="loginbtn" type="button">Sign in</button>
-
-    <div id="loader text-center"></div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
+</div>
 
 <?php
 include "includes/_footer.php";
