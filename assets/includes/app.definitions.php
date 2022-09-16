@@ -1,6 +1,9 @@
 <?php
 
 
+//Folder Paths
+define("Gallery_Folder", "photos/");
+
 
 // Links For Pages
 define("Gallery_Page_Link", "gallery.php");
