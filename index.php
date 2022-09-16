@@ -1,7 +1,7 @@
 <?php
 
-include "assets/includes/_process_include.php";
-include "assets/includes/_header.php";
+include "includes/_process_include.php";
+include "includes/_header.php";
 
 ?>
 
@@ -21,3 +21,8 @@ include "assets/includes/_header.php";
 
     <div id="loader text-center"></div>
 </form>
+
+
+<?php
+include "includes/_footer.php";
+?>
