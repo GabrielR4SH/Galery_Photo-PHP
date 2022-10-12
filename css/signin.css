@@ -11,3 +11,7 @@ form{
   margin-top: 25px;
 
 }
+
+.jumbotron{
+  box-shadow: 5px;
+}

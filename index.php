@@ -5,6 +5,7 @@ include "includes/_header.php";
 
 ?>
 <br>
+
 <div class="jumbotron">
     <h1 class="display-3">Login Gallery</h1>
     <hr>
